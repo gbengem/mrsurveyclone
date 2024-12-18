@@ -1,0 +1,363 @@
+@media (max-width: 768px) {
+ 
+  #brandname{
+    display:none;
+  }
+  #main-theme{
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 800; 
+    font-size: 30px; 
+    color:white;
+    margin-top:-200px;
+ 
+  }
+
+  #main-theme2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400; 
+    font-size: 24px; 
+    color:#444444;
+    margin-top:30px;
+  }
+
+  #card-content{
+    margin-top:-300px;
+  }
+
+    #special-font {
+        font-family: Pacifico, sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color:black;
+      }
+  
+      #registration-button {
+        color: white;
+        background-color: #2bd675;
+        border: none;
+        border-radius: 2em;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+  
+      #registration-button:hover {
+        background-color: #013289;
+        color: white;
+      }
+  
+      #login-button {
+        color: #013289;
+        background-color: white;
+        border: none;
+        border-radius: 2em;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+  
+      #login-button:hover {
+        background-color: #013289;
+        color: white;
+      }
+  
+      #main-header {
+        background-color: #2bd675;
+      }
+  
+      input[type="text"] {
+        border: 2px solid #5cfca1;
+        border-radius: 2em;
+        padding: 10px;
+        transition: border-color 0.3s ease;
+      }
+  
+      input[type="text"]:focus {
+        border-color: #2bd675;
+      }
+  
+      input[type="password"] {
+        border: 2px solid #5cfca1;
+        border-radius: 2em;
+        padding: 10px;
+        transition: border-color 0.3s ease;
+      }
+  
+      input[type="password"]:focus {
+        border-color: #2bd675;
+      }
+  
+      a {
+        text-decoration: none;
+        color: #2bd675;
+      }
+  
+      a:hover {
+        color: #7c7b7b;
+      }
+  
+      .card-hover img {
+        transition: transform 0.3s ease-in-out;
+      }
+  
+      .card-hover:hover img {
+        transform: scale(0.9);
+      }
+  
+      .card-hover {
+        transition: box-shadow 0.3s ease-in-out;
+        box-shadow: 0 4px 12px rgba(214, 212, 212, 0.2);
+      }
+  
+      .card-hover:hover {
+        box-shadow: 0 4px 12px rgba(141, 140, 140, 0.2);
+      }
+  
+      /* Remove borders from the accordion */
+      .accordion-item {
+        border: none;
+        font-family: "Poppings", sans-serif;
+        font-size: 16px;
+        font-weight: 100;
+      }
+  
+      .accordion-button {
+        border: none;
+        box-shadow: none;
+        color: black;
+        font-family: "Poppings", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+      }
+  
+      .accordion-collapse {
+        border: none;
+  
+      }
+  
+      .custom-rounded {
+        border-radius: 20px;
+      }
+  
+      #footer-link{
+        font-family: 'Poppins', sans-serif; 
+        font-weight: 300; 
+        font-size:14px; 
+        color:#031297;
+        text-decoration: none; /* Removes the default underline */
+      } 
+  
+      #footer-link:hover{
+        color: #2bd675;/* Text color on hover */
+        text-decoration: none; /* Add underline on hover */
+      }
+  
+  
+  
+      /* Style for the Back to Top button */
+      #backToTopBtn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none; /* Hidden by default */
+        background-color: #2bd675;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        padding: 10px 15px;
+        font-size: 18px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        cursor: pointer;
+      }
+      #backToTopBtn:hover {
+        background-color: #031297; /* Darker blue on hover */
+      }
+
+      
+}
+
+@media(min-width:800px){
+#main-theme{
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 800; 
+  font-size: 50px; 
+  color:white
+}
+
+
+#main-theme2{
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 400; 
+  font-size: 26px; 
+  color:444444;
+}
+
+#special-font {
+    font-family: Pacifico, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color:black;
+  }
+
+  #registration-button {
+    color: white;
+    background-color: #2bd675;
+    border: none;
+    border-radius: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #registration-button:hover {
+    background-color: #013289;
+    color: white;
+  }
+
+  #login-button {
+    color: #013289;
+    background-color: white;
+    border: none;
+    border-radius: 2em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #login-button:hover {
+    background-color: #013289;
+    color: white;
+  }
+
+  #main-header {
+    background-color: #2bd675;
+  }
+
+  input[type="text"] {
+    border: 2px solid #5cfca1;
+    border-radius: 2em;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+  }
+
+  input[type="text"]:focus {
+    border-color: #2bd675;
+  }
+
+  input[type="password"] {
+    border: 2px solid #5cfca1;
+    border-radius: 2em;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+  }
+
+  input[type="password"]:focus {
+    border-color: #2bd675;
+  }
+
+  a {
+    text-decoration: none;
+    color: #2bd675;
+  }
+
+  a:hover {
+    color: #7c7b7b;
+  }
+
+  .card-hover img {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card-hover:hover img {
+    transform: scale(0.9);
+  }
+
+  .card-hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(214, 212, 212, 0.2);
+  }
+
+  .card-hover:hover {
+    box-shadow: 0 4px 12px rgba(141, 140, 140, 0.2);
+  }
+
+  /* Remove borders from the accordion */
+  .accordion-item {
+    border: none;
+    font-family: "Poppings", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  .accordion-button {
+    border: none;
+    box-shadow: none;
+    color: black;
+    font-family: "Poppings", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .accordion-collapse {
+    border: none;
+
+  }
+
+  .custom-rounded {
+    border-radius: 20px;
+  }
+
+  #footer-link{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 300; 
+    font-size:14px; 
+    color:#031297;
+    text-decoration: none; /* Removes the default underline */
+  } 
+
+  #footer-link:hover{
+    color: #2bd675;/* Text color on hover */
+    text-decoration: none; /* Add underline on hover */
+  }
+
+
+
+  /* Style for the Back to Top button */
+  #backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    background-color: #2bd675;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    cursor: pointer;
+  }
+  #backToTopBtn:hover {
+    background-color: #031297; /* Darker blue on hover */
+  }
+}

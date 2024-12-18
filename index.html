@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MrSurvey - Give your opinion and answer paid surveys</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!------Icon-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <!------font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+ 
+</head>
+
+<body>
+<!------------
+  <nav class="navbar navbar-expand-lg bg-body-primary p-3 sticky-top" style="background-color: white;">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <img src='img/logo.png' width="40px" height="40px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="special-font" aria-current="page" href="#">Mr <span
+                style="color:#2bd675 !important">Survey</span></a>
+          </li>
+        </ul>
+        <div class="d-flex gap-3">
+          <button class="btn btn-primary" id="login-button" type="submit">Log in</button>
+          <button class="btn btn-primary" id="registration-button" type="submit">Registration</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+-------------->
+<nav class="navbar navbar-expand-lg bg-body-primary p-3 sticky-top" style="background-color: white;">
+  <div class="container d-flex align-items-center justify-content-between">
+    <!-- Brand Icon -->
+    <a class="navbar-brand d-flex align-items-center" href="#" id="special-font">
+      <img src="logo.png" width="40px" height="40px" alt="Brand Logo"><span id="brandname">
+      Mr <span style="color:#2bd675 !important">Survey</span></span>
+    </a>
+
+    <!-- Navigation Buttons -->
+    <div class="d-flex gap-3 mx-auto mx-lg-0 ms-lg-auto">
+      <button class="btn btn-primary" id="login-button" type="submit">Log in</button>
+      <button class="btn btn-primary" id="registration-button" type="submit">Registration</button>
+    </div>
+  </div>
+</nav>
+
+
+
+
+  <div class="container-fluid" id="main-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 pt-5 pb-5" style="margin-top: 200px; margin-bottom:150px;">
+          <h1 id="main-theme">Share your
+            opinion and earn rewards</h1>
+          <h5 id="main-theme2"> Don't waste
+            any more time,<strong>take online surveys</strong> with MrSurvey.</h5>
+        </div>
+        <div class="col-md-5 pt-5 pb-5 mt-5 text-center">
+
+          <div class="card shadow p-3 mb-4 bg-body-tertiary custom-rounded" id="card-content" >
+            <div class="card-body" style="padding:20px;">
+              <h3 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size:25px; color:#333333">SIGN UP TO
+                START EARNING</h3>
+              <p class="card-text" style="margin-top:-10px; color:gray;">It's free, fast, and easy</p>
+              <div class="input-group mb-4 mt-5">
+                <input class="form-control" type="text" placeholder="E-mail">
+              </div>
+              <div class="input-group mb-4">
+                <input class="form-control" type="password" placeholder="Password">
+              </div>
+              <div class="input-group mb-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <small>Yes, I allow MrSurvey to send me emails regarding surveys, services, reminders or other
+                      promotions.</small>
+                  </label>
+                </div>
+              </div>
+              <div class="input-group mb-4">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    <small> By checking this box, i accept <a href="#">privacy policy</a>, <a href="#">general
+                        conditions of membership</a>, <a href="#">rewards system terms and conditions</a></small>
+                  </label>
+                </div>
+              </div>
+
+              <button class="btn btn-primary mb-3 mt-3" id="registration-button" type="submit">I'm registering!</button>
+              <p>Already have an account? <a href="#">Log in</a></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h5 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size:14px; color:#2bd675;">EARN MONEY
+        WHEREVER YOU ARE, WHENEVER YOU WANT</h5>
+      <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:35px; color:#0c0c0c;">How do I earn
+        money?</h1>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row text-center mt-5">
+      <div class="col-md-4">
+        <div class="card  h-100 p-3 mb-4 border-0 card-hover">
+          <div class="card-body ">
+            <img src="1.png" width="250px" height="auto">
+            <h5 class="card-title mb-3"
+              style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:26px; color:#444444">Sign up in
+              minutes</h5>
+            <p class="card-text"
+              style="font-family: 'Poppins', sans-serif; font-weight: 200; font-size:16px; color:black">Signing up only
+              takes a few minutes, and you'll have surveys right away to complete wherever you are.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card  h-100 p-3 mb-4 border-0 card-hover">
+          <div class="card-body ">
+            <img src="2.png" width="250px" height="auto">
+            <h5 class="card-title mb-3"
+              style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:26px; color:#444444">Complete the
+              many surveys</h5>
+            <p class="card-text"
+              style="font-family: 'Poppins', sans-serif; font-weight: 200; font-size:16px; color:black">Take advantage
+              of your free time or your commute to earn money by completing the surveys available daily.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card  h-100 p-3 mb-4 border-0 card-hover">
+          <div class="card-body ">
+            <img src="3.png" width="250px" height="auto">
+            <h5 class="card-title mb-3"
+              style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:26px; color:#444444">Collect cash
+              rewards</h5>
+            <p class="card-text"
+              style="font-family: 'Poppins', sans-serif; font-weight: 200; font-size:16px; color:black">Collect your
+              winnings as you please, thanks to our many available payment methods. The more surveys you do, the more
+              cash you earn.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row text-center mt-5">
+      <h5 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size:14px; color:#2bd675;">HOW WE WORK</h5>
+      <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:35px; color:#0c0c0c;">How do paid
+        surveys work?</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:35px; color:#0c0c0c;">Your opinion
+          counts</h1>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size:16px; color:#333333;">
+          MrSurvey.com offers paid surveys. Those interested in participating in these surveys can register for free and
+          create a profile with their personal and demographic information.<br><br>
+          By registering, you will receive online surveys to complete based on your profile and interests. Each
+          participant receives a reward for each completed survey, which varies depending on the time required to
+          complete the survey, or the difficulty level of the survey.<br><br>
+          Companies that commission these surveys may use the results to improve their products, services or policies,
+          or to better understand their customers and target market. Participants can also take the opportunity to share
+          their opinions and influence business decisions.
+        </p>
+      </div>
+      <div class="col-md-6"><img src="4.png" class="img-fluid"></div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6"><img src="5.png" class="img-fluid"></div>
+      <div class="col-md-6">
+        <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:35px; color:#0c0c0c;">Is it
+          effective?</h1>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size:16px; color:#333333;">
+          Paid survey sites are an easy and simple way to earn extra money by taking online surveys. It's a quick and
+          convenient side business that can be done anywhere and anytime, making it an ideal choice for earning extra
+          cash.<br><br>
+          It's very simple and very quick to get started, to give your opinion and be heard while earning cash.
+          Registration only takes a few minutes and will give you access to surveys linked to your profile.<br><br>
+          In summary, paid surveys can be an effective method of earning a little extra money online, but it depends on
+          many factors.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-5" >
+    <div class="row text-center mt-5 mb-5">
+      <h5 style="font-family: 'Poppins', sans-serif; font-weight: 600; font-size:14px; color:#2bd675;">F.A.Q</h5>
+      <h1 style="font-family: 'Poppins', sans-serif; font-weight: 800; font-size:35px; color:#0c0c0c;">Frequently Asked
+        Questions</h1>
+    </div>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample" style="margin-bottom:120px;"> 
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            What are paid surveys?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Paid survey sites are an easy and simple way to earn extra money by taking online
+            surveys. It's a quick and convenient side business
+            that can be done anywhere and anytime, making it an ideal choice for earning extra cash.<br>
+            It's very simple and very quick to get started, to give your opinion and be heard while earning cash.
+            Registration only takes a few <br>
+            minutes and will give you access to surveys linked to your profile.<br>
+            In summary, paid surveys can be an effective method of earning a little extra money online, but it depends
+            on many factors.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            How to make money online with paid surveys?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">MrSurvey is an online paid survey site. You will receive new surveys every day to
+            complete to earn Mistiz . When you have collected MZ , you can exchange them for 15000 ₦ .</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            How does MrSurvey work?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">MrSurvey.com offers paid surveys. Those interested in participating in these
+            surveys can register for free and create a profile with their <br> personal and demographic information.<br>
+            By registering, you will receive online surveys to complete based on your profile and interests. Each
+            participant receives a reward for each completed survey, which varies depending on the time required to
+            complete the survey, or the difficulty level of the survey.<br>
+            Companies that commission these surveys may use the results to improve their products, services or policies,
+            or to better understand their customers and target market. Participants can also take the opportunity to
+            share their opinions and influence business decisions.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            Is MrSurvey reliable?
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">MrSurvey is a legitimate and reliable site that offers rewards to its users for
+            completing surveys. The site was created in 2019 and has <br> hundreds of thousands of users worldwide.
+            Share your opinion to influence your favorite brands, by taking paid surveys with MrSurvey and start making
+            money online in 2024 .</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            What types of payment are offered?
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">MrSurvey offers different types of payments: Paypal transfers and Amazon gift
+            certificates.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="mb-5">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="d-flex mb-3">
+          <img src='logo.png' width="40px" height="40px">
+          <a class=" " id="special-font" aria-current="page" href="#">Mr <span
+              style="color:#2bd675 !important">Survey</span></a>
+        </div>
+        <p style="font-family: 'Poppins', sans-serif; font-weight: 300; font-size:14px; color:#333333;">Receive online surveys that match your profile, and you'll be rewarded with compensation every time you
+          complete a survey.</p>
+      </div>
+      <div class="col-md-4">
+        <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-size:16px; color:#333333;">USEFUL LINKS</h5>
+        <ul class="list-unstyled">
+          <li> <span class="material-icons">chevron_right</span> <a id="footer-link" href="#" >Membership terms and conditions</a></li>
+          <li> <span class="material-icons">chevron_right</span> <a id="footer-link" href="#">Legal Notice</a></li>
+          <li> <span class="material-icons">chevron_right</span> <a id="footer-link" href="#">Privacy Policy</a></li>
+          <li> <span class="material-icons">chevron_right</span> <a id="footer-link" href="#">Rewards system</a></li>
+          <li> <span class="material-icons">chevron_right</span> <a id="footer-link" href="#">Cookies Policy</a></li>
+          <li> <span class="material-icons">chevron_right</span> <a id="footer-link" href="#">Help Center</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" title="Go to top">&#8679;</button>
+
+
+  <div class="container-fluid">
+    <hr>
+    <footer class="text-center" style="margin-top:-8px; font-family: 'Poppins', sans-serif; font-weight: 300; font-size:13px; color:#333333;">
+      All rights reserved, reproduction strictly prohibited. © MrSurvey 2019 - 2024
+    </footer>
+  </div>
+
+  <script>
+    // Get the button
+    var mybutton = document.getElementById("backToTopBtn");
+
+    // When the user scrolls down 100px from the top, show the button
+    window.onscroll = function() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    };
+
+    // When the user clicks the button, scroll to the top of the document
+    mybutton.onclick = function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
